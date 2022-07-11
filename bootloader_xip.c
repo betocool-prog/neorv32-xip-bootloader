@@ -1,9 +1,9 @@
 // #################################################################################################
-// # << NEORV32 - XIP Bootloader >>                                                                    #
+// # << NEORV32 - XIP Bootloader >>                                                                #
 // # ********************************************************************************************* #
 // # BSD 3-Clause License                                                                          #
 // #                                                                                               #
-// # Copyright (c) 2022, Alberto Fahrenkrog. All rights reserved.                                     #
+// # Copyright (c) 2022, Alberto Fahrenkrog. All rights reserved.                                  #
 // #                                                                                               #
 // # Redistribution and use in source and binary forms, with or without modification, are          #
 // # permitted provided that the following conditions are met:                                     #
