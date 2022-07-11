@@ -1,0 +1,25 @@
+# python
+__pycache__
+*.pyc
+
+# generated application files
+*.bin
+*.o
+*.elf
+*.asm
+*.out
+*.hex
+*_image.vhd
+
+# temporary/legacy files/folders
+*.tmp
+~*
+de0_nano/db/
+de0_nano/output_files/
+de0_nano/incremental_db/
+
+# Submodule
+/neorv32/
+
+# VS Code config
+/.vscode/
