@@ -18,8 +18,5 @@ de0_nano/db/
 de0_nano/output_files/
 de0_nano/incremental_db/
 
-# Submodule
-/neorv32/
-
 # VS Code config
 /.vscode/
