@@ -17,6 +17,9 @@ __pycache__
 de0_nano/db/
 de0_nano/output_files/
 de0_nano/incremental_db/
+de0nano.qws
+arty_a7_100.cache/
+arty_a7_100.hw/
 
 # VS Code config
 /.vscode/
