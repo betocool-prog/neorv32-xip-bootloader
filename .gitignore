@@ -14,12 +14,18 @@ __pycache__
 # temporary/legacy files/folders
 *.tmp
 ~*
+# De0 Project
 de0_nano/db/
 de0_nano/output_files/
 de0_nano/incremental_db/
 de0nano.qws
+
+# Arty project
 arty_a7_100.cache/
 arty_a7_100.hw/
+arty_a7_100.ip_user_files/
+arty_a7_100.runs/
+arty_a7_100.sim/
 
 # VS Code config
 /.vscode/
