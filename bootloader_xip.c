@@ -327,6 +327,7 @@ int main(void)
           if(retval == 0)
           {
             // finally, jump to the XIP flash's base address we have configured to start execution **from there**
+            neorv32_cpu_dint();
             asm volatile ("call %[dest]" : : [dest] "i" (XIP_PAGE_BASE + SPI_FLASH_BASE_ADDR));
             while(1);
           }
@@ -375,6 +376,7 @@ int main(void)
 
       neorv32_gpio_port_set(0x0);
       // finally, jump to the XIP flash's base address we have configured to start execution **from there**
+      neorv32_cpu_dint();
       asm volatile ("call %[dest]" : : [dest] "i" (XIP_PAGE_BASE + SPI_FLASH_BASE_ADDR));
       while(1);
     }

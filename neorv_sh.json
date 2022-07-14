@@ -1,0 +1,21 @@
+{
+    "board": "ARTY_A7",
+    "ARTY_A7": {
+        "serial": {
+            "port": "/dev/ttyUSB1",
+            "baudrate": 115200
+        },
+        "flash": {
+            "name": "S25FL128_0"
+        }
+    },
+    "DE0_Nano": {
+        "serial": {
+            "port": "/dev/ttyUSB0",
+            "baudrate": 115200
+        },
+        "flash": {
+            "name": "EPCS64"
+        }
+    }
+}
